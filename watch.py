@@ -26,7 +26,7 @@ UA = (
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 )
 
-FILM_PATTERN = os.environ.get("FILM_PATTERN", "odyss").lower()
+FILM_PATTERN = os.environ.get("FILM_PATTERN", "duna").lower()
 AUDITORIUM_PATTERN = os.environ.get("AUDITORIUM_PATTERN", "imax").lower()
 HORIZON_DAYS = int(os.environ.get("HORIZON_DAYS", "180"))
 # Atribut, podle kterého API umí filtrovat kina — levná nápověda, kde hledat
