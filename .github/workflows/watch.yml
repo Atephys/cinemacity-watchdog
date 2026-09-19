@@ -1,7 +1,7 @@
 name: Cinema City watchdog
 
 # Zkontroluje rozpis Cinema City a když přibudou termíny Odyssei v IMAXu,
-# založí issue (GitHub z něj pošle e-mail i push do appky).
+# založí issue (GitHub z něj pošle e-mail i push do appky). 
 #
 # Naplánováno 4× za hodinu, i když cílem je detekce do ~30 minut: GitHub
 # u scheduled workflows běhy pod zátěží houfně zahazuje (naměřeno 1 z 8).
